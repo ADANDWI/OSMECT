@@ -13,7 +13,7 @@
 }
 @font-face {
   font-family: 'CustomFont';
-  src: url('/font/angrybirds-regular.ttf') format('truetype'),
+  src: url('font/angrybirds-regular.ttf') format('truetype'),
        url('fonts/CustomFont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
