@@ -1,0 +1,405 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+width: 100%;
+height: 100vh;
+margin: 0;
+background-image: url('Black_and_White_Simple_Motivation_Phone_Wallpaper_20240703_171818_0000-removebg-preview.png'); /* Change this to the background image you want */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
+  background: #00bfff;
+  z-index: 1;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('font/angrybirds-regular.ttf') format('truetype'),
+       url('fonts/CustomFont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logo{
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'CustomFont', sans-serif; 
+}
+
+.container {
+  height: max-content;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.kotak {
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* Background color for the image container */
+  border-radius: 50%; /* Make it a circle */
+  overflow: hidden;
+}
+
+.kotak img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.profil {
+
+height: 100px;
+width: 100%;
+text-align: center;
+font-family: 'CustomFont', sans-serif; /* sans-serif sebagai fallback font */
+}
+
+.bph, .bph1 {
+position: relative;
+display: block;
+margin: auto;
+width: fit-content;
+padding: 10px 20px;
+margin-top: 20px;
+border-radius: 5px;
+text-align: center;
+background-color: #fff; /* Background color for the sections */
+border: 2px solid  #00bfff; /* Border color to match Angry Birds theme */
+}
+
+.hover-text {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.3s;
+font-size: 1.5em;
+text-align: center;
+}
+
+.bph:hover .hover-text,
+.bph1:hover .hover-text {
+opacity: 1;
+}
+
+.bph img,
+.bph1 img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+      display: none;
+  }
+}
+
+.chairman-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px 0;
+gap: 85px;
+margin-top: 100%;
+}
+
+.chairman {
+position: relative;
+text-align: center;
+}
+
+.chairman img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+position: relative;
+z-index: 1;
+border: 2px solid  #00bfff;
+border-radius: 50%;
+}
+
+.chairman h2 {
+background-color:  #00bfff;
+color: #ffffff;
+padding: 12px;
+width: fit-content;
+margin: 10px auto 0;
+border-radius: 5px;
+position: relative;
+z-index: 1;
+}
+
+.additional-photo {
+text-align: center;
+}
+
+.additional-photo img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+position: relative;
+border: 2px solid  #00bfff;
+border-radius: 50%;
+}
+
+.additional-photo h2 {
+background-color:  #00bfff;
+color: #ffffff;
+padding: 10px;
+width: fit-content;
+margin: 10px auto 0;
+border-radius: 5px;
+}
+
+.additional-photos-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin: 20px 0;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #00bfff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #ffffff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("imgonline-com-ua-ReplaceColor-Yfk973cm18ZReGzK.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+.join-button {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color:  #00bfff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 50px;
+}
+
+.join-button:hover {
+  background-color: #00FFFF;
+}
+
+.low {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.load-wrapp {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 9999999999;
+text-align: center;
+place-items: center;
+display: grid;
+background-color: #d8d8d8;
+}
+
+.load-wrapp img {
+width: 110px;
+height: 110px;
+animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+@keyframes loadingC {
+0% {
+  transform: translate(0, 0);
+}
+50% {
+  transform: translate(0, 15px);
+}
+100% {
+  transform: translate(0, 0);
+}
+}
+.circle-animation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 120px; /* Ukuran lingkaran */
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.5); /* Warna dan transparansi lingkaran */
+  border-radius: 50%;
+  animation: moveCircle 5s linear infinite;
+  z-index: 1; /* Agar lingkaran berada di belakang gambar */
+}
+
+@keyframes moveCircle {
+  from {
+      right: -100px; /* Mulai dari luar layar sebelah kanan */
+  }
+  to {
+      right: 100%; /* Berakhir di luar layar sebelah kiri */
+  }
+}
+.bunder {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 120px; /* Ukuran lingkaran */
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.5); /* Warna dan transparansi lingkaran */
+  border-radius: 50%;
+  animation: move 5s linear infinite;
+  z-index: 1; /* Agar lingkaran berada di belakang gambar */
+}
+
+@keyframes move{
+  from {
+      left: -100px; /* Mulai dari luar layar sebelah kiri */
+  }
+  to {
+      left: 100%; /* Berakhir di luar layar sebelah kanan */
+  }
+}
