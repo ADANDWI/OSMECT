@@ -13,7 +13,7 @@
 }
 @font-face {
   font-family: 'CustomFont';
-  src: url('font/angrybirds-regular.ttf') format('truetype'),
+  src: url('angrybirds-regular.ttf') format('truetype'),
        url('fonts/CustomFont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -274,7 +274,7 @@ display: none;
   left: 0;
   width: 100%;
   height: 100px;
-  background: url("/imgonline-com-ua-ReplaceColor-Yfk973cm18ZReGzK.png");
+  background: url("imgonline-com-ua-ReplaceColor-Yfk973cm18ZReGzK.png");
   background-size: 1000px 100px;
   
 }
