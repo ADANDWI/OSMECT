@@ -11,7 +11,7 @@ body {
 width: 100%;
 height: 100vh;
 margin: 0;
-background-image: url('Black_and_White_Simple_Motivation_Phone_Wallpaper_20240703_171818_0000-removebg-preview.png'); /* Change this to the background image you want */
+background-color: white;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
