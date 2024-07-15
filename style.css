@@ -340,7 +340,7 @@ background-color: #d8d8d8;
 .load-wrapp img {
 width: 110px;
 height: 110px;
-animation: spin 2s linear infinite;
+animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
