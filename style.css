@@ -149,10 +149,11 @@ display: block;
 .chairman h2 {
   background-color: #00bfff;
   color: #ffffff;
-  padding: 12px;
+  padding: 10px;
   width: fit-content;
   margin: 10px auto 0;
   border-radius: 5px;
+  font-size: 15px;
 }
 
 .additional-photos-container {
