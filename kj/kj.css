@@ -177,12 +177,7 @@ h3{
   }
 }
 
-/* Untuk layar dengan lebar 768px atau lebih besar */
-@media screen and (min-width: 768px) {
- body{
-  display: none;
- }
-}
+
 
 .container1 {
   display: flex;

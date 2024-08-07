@@ -7,7 +7,7 @@
   list-style: none;
 }
 
-body {
+.body {
 width: 100%;
 height: 100vh;
 margin: 0;
@@ -16,6 +16,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 box-sizing: border-box;
+
 }
 
 .header {
@@ -119,9 +120,48 @@ height: auto;
 display: block;
 }
 
-@media screen and (min-width: 768px) {
-  body {
-      display: none;
+@media (min-width: 760px) {
+  .nav {
+    padding: 20px 50px;
+  }
+
+  .container {
+    padding: 100px 50px;
+  }
+
+  .profil {
+    height: 150px;
+  }
+
+  .chairman-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .chairman img, .additional-photo img {
+    max-width: 100px;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+  .bph{
+    max-width: 50%;
+
+  }
+  .bph1{
+    max-width: 50%;
+  }
+  .chairman{
+    max-width: 50%;
+  }
+  .additional-photos{
+    max-width: 50%;
   }
 }
 
